@@ -1,0 +1,35 @@
+/** Quantum Matrix design tokens */
+export const Q = {
+  bg: '#02040a',
+  bgDeep: '#000208',
+  bgPanel: 'rgba(0, 255, 170, 0.04)',
+  bgPanelSolid: '#061018',
+  grid: 'rgba(0, 255, 170, 0.08)',
+  gridBright: 'rgba(0, 255, 170, 0.22)',
+  matrix: '#00ff9c',
+  matrixDim: 'rgba(0, 255, 156, 0.35)',
+  matrixFaint: 'rgba(0, 255, 156, 0.12)',
+  cyan: '#00e5ff',
+  cyanDim: 'rgba(0, 229, 255, 0.2)',
+  violet: '#b14eff',
+  violetDim: 'rgba(177, 78, 255, 0.2)',
+  magenta: '#ff2bd6',
+  amber: '#ffc14a',
+  white: '#e8fff6',
+  text: '#d7ffe9',
+  textSecondary: 'rgba(215, 255, 233, 0.72)',
+  textMuted: 'rgba(215, 255, 233, 0.45)',
+  textFaint: 'rgba(215, 255, 233, 0.28)',
+  border: 'rgba(0, 255, 156, 0.18)',
+  borderStrong: 'rgba(0, 255, 156, 0.45)',
+  danger: '#ff4d6d',
+  nodeCore: '#00ffc8',
+  nodeEdge: '#7c5cff',
+  orbCore: '#7ef9ff',
+  orbGlow: '#b14eff',
+  tabBar: 'rgba(2, 4, 10, 0.96)',
+  streamChars: '01アイウエオカキクケコサシスセソABCDEF◈◆◇⬡⬢⚡',
+};
+
+export const spacing = { xs: 4, sm: 8, md: 16, lg: 22, xl: 32 };
+export const radius = { sm: 8, md: 12, lg: 16, xl: 22, full: 999 };
